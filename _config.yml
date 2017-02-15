@@ -6,7 +6,7 @@
 title: iv小强
 subtitle: 
 description: "网络，无线，系统，服务器，web，openstack，docker"
-author: yangxiaoqiang
+author: iv小强
 language: zh-Hans
 timezone: Asia/Shanghai
 
@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://ivixq.com
 root: /
-permalink: blog/:title:year:month:day/
+permalink: blog/:year:month:day/:title/
 permalink_defaults:
 
 # Directory
@@ -60,7 +60,7 @@ time_format: HH:mm:ss
 # Pagination
 ## Set per_page to 0 to disable pagination
 index_generator:
-  per_page: 5
+  per_page: 10
 
 archive_generator:
   per_page: 20
@@ -78,7 +78,9 @@ theme: next
 feed:
   type: atom       
   path: atom.xml   
-  limit: 20        
+  limit: 20
+  hub:
+  content:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

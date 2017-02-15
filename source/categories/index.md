@@ -1,6 +1,6 @@
 ---
-title: tags  
+title: categories 
 date: 2017-02-14  
-type: "tags"  
+type: "categories"  
 comments: false  
 ---
