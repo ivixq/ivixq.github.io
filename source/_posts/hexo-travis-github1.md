@@ -1,11 +1,13 @@
 ---
 title: hexo+travis+github博客环境搭建（一）----本地hexo环境搭建  
-date: 2017-02-14
-tags: hexo
+date: 2017-02-14   
+categories: web   
+tags: hexo   
+comments: true   
 
 ---
 
-### 本人博客的搭建
+### 前言
 作为一个不懂前端、不懂css、不懂git的人来说，搭建一个博客真的是太折腾，经过几天在一篇篇网文的指导和说明下，终于搭建完毕，第一篇博客当然要对这几天折腾进行一下总结梳理。
 
 ### 博客系统介绍
