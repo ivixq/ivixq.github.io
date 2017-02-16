@@ -86,5 +86,5 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repository: https://github.com/ivixq/ivixq.github.io.git
+  repository: git@119.29.164.25:/mydata/myrepo/blog.git
   branch: master
