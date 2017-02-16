@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>iv小强</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://ivixq.com/"/>
+  <updated>2017-02-16T08:58:58.959Z</updated>
+  <id>http://ivixq.com/</id>
+  
+  <author>
+    <name>iv小强</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SSH的安全设置</title>
+    <link href="http://ivixq.com/blog/20170215/sshd-security/"/>
+    <id>http://ivixq.com/blog/20170215/sshd-security/</id>
+    <published>2017-02-15T16:00:00.000Z</published>
+    <updated>2017-02-16T08:58:58.959Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;在阿里云部署了一台虚拟主机，安装了zabbix，主要用于监控用户WIFI系统，平常很少登录；今天登录查看某些配置时，系统提示如下：  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ivixq.oss-cn-shenzhen.aliyuncs.com/blog/sshd-001.png&quot; alt=&quot;非法登录&quot;&gt;&lt;/p&gt;
+&lt;p&gt;竟然有840次试图登录系统，真是有些担忧，需要马上加强安全。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="安全" scheme="http://ivixq.com/categories/%E5%AE%89%E5%85%A8/"/>
+    
+    
+      <category term="ssh" scheme="http://ivixq.com/tags/ssh/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo+travis+github博客环境搭建（一）----本地hexo环境搭建</title>
+    <link href="http://ivixq.com/blog/20170213/hexo-travis-github1/"/>
+    <id>http://ivixq.com/blog/20170213/hexo-travis-github1/</id>
+    <published>2017-02-13T16:00:00.000Z</published>
+    <updated>2017-02-16T08:58:58.959Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;作为一个不懂前端、不懂css、不懂git的人来说，搭建一个博客真的是太折腾，经过几天在一篇篇网文的指导和说明下，终于搭建完毕，第一篇博客当然要对这几天折腾进行一下总结梳理。&lt;/p&gt;
+&lt;h3 id=&quot;博客系统介绍&quot;&gt;&lt;a href=&quot;#博客系统介绍&quot; class=&quot;headerlink&quot; title=&quot;博客系统介绍&quot;&gt;&lt;/a&gt;博客系统介绍&lt;/h3&gt;&lt;p&gt;在github上，博客的源文件和静态页面放置在内不同的分支上，源程序放在sources分支，静态文件放在master分支，博客发布时，只需将写好的博客源文件（*.md）上传至sources分支，travis就会自动构建静态网页，然后再上传至master分支，这样做的好处就是随时都可以写博客，只需要push一个md文件就ok，不会束缚到某台电脑。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="web" scheme="http://ivixq.com/categories/web/"/>
+    
+    
+      <category term="hexo" scheme="http://ivixq.com/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>

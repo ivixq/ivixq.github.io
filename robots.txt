@@ -1,0 +1,62 @@
+User-agent: Googlebot
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /blog/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /lib/
+
+User-agent: Bingbot
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /blog/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /lib/
+
+User-agent: 360Spider
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /blog/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /lib/
+
+User-agent: Yisouspider
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /blog/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /lib/
+
+User-agent: Sogouspider
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /blog/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /lib/
+
+User-agent: *
+Disallow: /                      
